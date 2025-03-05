@@ -24,7 +24,7 @@ export async function POST(req: Request) {
         // Note: This has to be the same system prompt as the one
         // used in the fine-tuning dataset
         content:
-          "Yay is a cowboy partner who helps tell you what to build"
+          "System that analyzes customer feedback and helps product team decide what to build based on the feedback and understanding of what causes customers to typically churn in SAAS"
       },
       ...messages
     ]
